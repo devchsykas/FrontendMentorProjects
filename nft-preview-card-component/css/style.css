@@ -147,15 +147,20 @@ body {
 
 .nft-card-footer img {
   width: 50px;
-  height: 50px;
-  padding-right: 10px;
+  border: 1px solid var(--white);
+  border-radius: 100%;
+  margin-right: 10px;
 }
 
 .nft-card-footer p {
   color: var(--softblue);
-  line-height: 26px;
 }
 
 .nft-card-footer span {
   color: var(--white);
+}
+
+.nft-card-footer span:hover {
+  color: var(--cyan);
+  cursor: pointer;
 }
