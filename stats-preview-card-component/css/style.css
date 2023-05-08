@@ -67,13 +67,14 @@ body {
   min-height: 500px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 /* Add the styling for the image section */
 
 /* Adding Background Image */
 .card-stats-image-content {
-  background-image: url("../images/image-header-desktop.jpg");
+  background-image: url("../images/image-header-mobile.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -90,6 +91,27 @@ body {
   position: absolute;
   width: 335px;
   height: 280px;
-  /* background-color: var(--soft-violet); */
+  background-color: var(--soft-violet);
   overflow: hidden;
+}
+
+.card-stats-header {
+  padding: 30px 15px;
+}
+
+.card-stats-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+  color: var(--main-heading-stats);
+}
+
+.card-stats-header span {
+  color: var(--soft-violet);
+}
+
+.card-stats-body p {
+  color: var(--main-paragraph);
+  font-size: 18px;
+  font-weight: 500;
 }
