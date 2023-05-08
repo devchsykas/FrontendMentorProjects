@@ -91,7 +91,7 @@ body {
   position: absolute;
   width: 335px;
   height: 280px;
-  background-color: var(--soft-violet);
+  background: var(--soft-violet);
   overflow: hidden;
 }
 
