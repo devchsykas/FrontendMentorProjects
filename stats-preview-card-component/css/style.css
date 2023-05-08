@@ -91,7 +91,7 @@ body {
   position: absolute;
   width: 335px;
   height: 280px;
-  background: var(--soft-violet);
+  /* background: var(--soft-violet); */
   overflow: hidden;
 }
 
@@ -145,4 +145,15 @@ body {
   font-size: 12px;
   font-weight: 400;
   padding-top: -2px;
+}
+
+/* Style the card using FlexBox */
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-stats-footer {
+  display: flex;
+  flex-direction: column;
 }
