@@ -67,7 +67,7 @@ body {
   min-height: 500px;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
+  /* text-align: center; */
 }
 
 /* Add the styling for the image section */
@@ -95,8 +95,11 @@ body {
   overflow: hidden;
 }
 
+/* Add common styling for the card section */
+
 .card-stats-header {
   padding: 30px 15px;
+  text-align: center;
 }
 
 .card-stats-header h1 {
@@ -110,8 +113,36 @@ body {
   color: var(--soft-violet);
 }
 
+.card-stats-body {
+  padding: 30px 15px;
+  text-align: center;
+}
+
 .card-stats-body p {
   color: var(--main-paragraph);
   font-size: 18px;
   font-weight: 500;
+}
+
+.card-stats-footer {
+  text-align: center;
+}
+
+.card-stats-footer-item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.card-stats-footer-item h2 {
+  color: var(--main-heading-stats);
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.card-stats-footer-item p {
+  color: var(--stat-headings);
+  font-size: 12px;
+  font-weight: 400;
+  padding-top: -2px;
 }
