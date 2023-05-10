@@ -113,7 +113,7 @@ body {
 
 .column-left {
   background-color: var(--bright-orange);
-  border-radius: 12px 0px 0px 12px;
+  border-radius: 10px 0px 0px 10px;
 }
 
 .column-left,
@@ -146,11 +146,29 @@ body {
 
 .column-right {
   background-color: var(--very-dark-cyan);
-  border-radius: 0px 12px 12px 0px;
+  border-radius: 0px 10px 10px 0px;
 }
 
 .column-right .btn a {
   color: var(--very-dark-cyan);
   font-family: "Lexend Deca", sans-serif;
   cursor: pointer;
+}
+
+/* Responsive Styling Using Media Query */
+
+@media screen and (min-width: 300px) and (max-width: 760px) {
+  .column-container {
+    grid-template-columns: repeat(1, 3fr);
+    margin-top: 30px;
+    padding: 30px;
+  }
+
+  .column-left {
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .column-right {
+    border-radius: 0px 0px 10px 10px;
+  }
 }
