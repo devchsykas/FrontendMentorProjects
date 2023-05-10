@@ -63,4 +63,13 @@ a {
 body {
   font-family: "Big Shoulders Display", cursive;
   font-size: 15px;
+  background-color: var(--light-gray);
+}
+
+.column-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  margin: 100px auto;
+  max-width: 1440px;
 }
