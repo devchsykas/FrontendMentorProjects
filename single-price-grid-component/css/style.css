@@ -51,6 +51,10 @@ The designs were created to the following widths:
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   font-family: "Karla", sans-serif;
   font-size: 16px;
@@ -58,4 +62,24 @@ body {
   line-height: 1.6;
   color: var(--grayish-blue);
   background-color: var(--light-gray);
+}
+
+.grid-container {
+  width: 100%;
+  border-radius: 7px;
+  margin: 80px 40px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  background-color: white;
+}
+
+.top-content,
+.bottom-content {
+  margin-top: 30px;
+}
+
+.top-content,
+.bottom-content .grid-item-1,
+.bottom-content .grid-item-2 {
+  padding-left: 25px;
+  padding-right: 25px;
 }
