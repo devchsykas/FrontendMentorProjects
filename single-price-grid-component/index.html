@@ -1,50 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <!-- Head Section -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Single Price Grid Component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Join our community
+    <title>Frontend Mentor | Single Price Grid Component</title>
 
-  30-day, hassle-free money back guarantee
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <!-- Body Section -->
+  <body>
+    <!-- Parent Container -->
+    <div class="grid-container">
+      <!-- 01 Child Container - Top Section Of The Card -->
+      <div class="top-content">
+        <div class="heading">
+          <h1>Join our community</h1>
+        </div>
+        <div class="sub-heading">
+          <h2>30-day, hassle-free money back guarantee</h2>
+        </div>
+        <div class="info">
+          <p>
+            Gain access to our full library of tutorials along with expert code
+            reviews. Perfect for any developers who are serious about honing
+            their skills.
+          </p>
+        </div>
+      </div>
+      <!-- 02 Child Container - Bottom Section Of The Card -->
+      <div class="bottom-content">
+        <div class="grid-item-1">
+          <div class="item-title">
+            <h1>Monthly Subscription</h1>
+          </div>
+          <div class="item-price">
+            <p><span>&dollar;29</span>per month</p>
+          </div>
+          <div class="item-info">
+            <p>Full access for less than &dollar;$1 a day</p>
+          </div>
+          <div class="item-button">
+            <button class="btn">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item-2">
+        <div class="item-title">
+          <h1>Why Us</h1>
+        </div>
+        <div class="item-info">
+          <p>
+            Tutorials by industry experts <br />
+            Peer &amp; expert code review <br />
+            Coding exercises <br />
+            Access to our GitHub repos <br />
+            Community forum <br />
+            Flashcard decks <br />
+            New videos every week
+          </p>
+        </div>
+      </div>
+    </div>
 
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
-
-  Monthly Subscription
-
-  &dollar;29 per month
-
-  Full access for less than &dollar;1 a day
-
-  Sign Up
-
-  Why Us
-
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Christos Sykas</a>.
+      </p>
+    </footer>
+  </body>
 </html>
