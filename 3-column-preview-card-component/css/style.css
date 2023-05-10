@@ -66,16 +66,17 @@ body {
   background-color: var(--light-gray);
 }
 
+/* Common Styling to all 3 columns */
 .column-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   margin: 100px auto;
-  max-width: 1440px;
+  max-width: 1024px;
 }
 
 .column {
-  height: 400px;
+  height: 500px;
   padding: 50px;
   display: flex;
   flex-direction: column;
@@ -106,4 +107,50 @@ body {
   height: 50px;
   width: 150px;
   text-align: center;
+}
+
+/* Specific styling to each column */
+
+.column-left {
+  background-color: var(--bright-orange);
+  border-radius: 12px 0px 0px 12px;
+}
+
+.column-left,
+.column-middle,
+.column-right h1 {
+  color: var(--white);
+}
+
+.column-left,
+.column-middle,
+.column-right p {
+  color: var(--light-gray);
+}
+
+.column-left .btn a {
+  color: var(--bright-orange);
+  font-family: "Lexend Deca", sans-serif;
+  cursor: pointer;
+}
+
+.column-middle {
+  background-color: var(--dark-cyan);
+}
+
+.column-middle .btn a {
+  color: var(--dark-cyan);
+  font-family: "Lexend Deca", sans-serif;
+  cursor: pointer;
+}
+
+.column-right {
+  background-color: var(--very-dark-cyan);
+  border-radius: 0px 12px 12px 0px;
+}
+
+.column-right .btn a {
+  color: var(--very-dark-cyan);
+  font-family: "Lexend Deca", sans-serif;
+  cursor: pointer;
 }
