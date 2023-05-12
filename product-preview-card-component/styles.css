@@ -42,7 +42,14 @@ font-family: "Montserrat", sans-serif;
 
 body {
   background-color: var(--cream);
-  margin-top: 200px;
+  /* min-height: 100vh;
+  display: grid;
+  place-items: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /* Section Product-Container */
@@ -51,7 +58,6 @@ body {
   display: flex;
   padding: 20px;
   width: 600px;
-  margin: 0 auto;
   overflow: hidden;
   border-radius: 10px;
 }
