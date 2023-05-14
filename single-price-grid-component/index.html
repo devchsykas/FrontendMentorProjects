@@ -16,7 +16,7 @@
     <!-- External CSS File -->
     <link rel="stylesheet" href="./css/style.css" />
 
-    <title>Frontend Mentor | Single Price Grid Component</title>
+    <title>Single Price Grid Component</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
@@ -31,54 +31,54 @@
   </head>
   <!-- Body Section -->
   <body>
-    <!-- Parent Container -->
-    
-      <!-- 01 Child Container - Top Section Of The Card -->
-     
-        
-          Join our community
-      
-        
+    <!-- Parent Grid Container -->
+    <div class="main-grid-container">
+      <!-- Child 01 Container - Top Section Of The Card -->
+      <div class="main-grid-top-container">
+        <!-- Top Main Heading -->
+        <h1 class="main-heading">Join our community</h1>
+        <!-- Top Main Sub Heading -->
+        <h2 class="main-sub-heading">
           30-day, hassle-free money back guarantee
-       
-          
+          <!-- Top description Paragraph -->
+          <p class="main-description">
             Gain access to our full library of tutorials along with expert code
             reviews. Perfect for any developers who are serious about honing
             their skills.
-         
-        </div>
-     
-      <!-- 02 Child Container - Bottom Section Of The Card -->
-      
-            Monthly Subscription
-         
-         
-            &dollar;29
-            per month
-        
-         
-            Full access for less than &dollar;$1 a day
-       
-         
-            Sign Up
-       
-      
+          </p>
+        </h2>
+      </div>
 
-        <div class="grid-item-2">
-          <div class="item-title">
-            <h1>Why Us</h1>
-          </div>
-          <div class="item-info">
-            <p>
-              Tutorials by industry experts <br />
-              Peer &amp; expert code review <br />
-              Coding exercises <br />
-              Access to our GitHub repos <br />
-              Community forum <br />
-              Flashcard decks <br />
-              New videos every week
-            </p>
-          </div>
+      <!-- Child 02 Container - Bottom Section Of The Card -->
+      <!-- Parent Grid Container -->
+      <div class="main-grid-bottom-container">
+        <!-- Child 01 Container For Bottom Section -->
+        <!-- Price Grid Container -->
+        <div class="price-grid-container">
+          <!-- Price Grid Item Heading -->
+          <h1 class="bottom-heading">Monthly Subscription</h1>
+          <!-- Price Grid Item Price -->
+          <p class="bottom-price">$29 per month</p>
+          <p class="bottom-description">Full access for less than $1 a day</p>
+          <!-- Price Grid Item Button -->
+          <button class="bottom-button"><a href="#">Sign up</a></button>
+        </div>
+
+        <!-- Child 02 Container For Bottom Section -->
+        <!-- Why us Grid Container -->
+        <div class="why-us-grid-container">
+          <!-- Why us Grid Item Heading -->
+          <h1 class="bottom-heading">Why Us</h1>
+          <!-- Why us Grid Item List -->
+          <ul class="bottom-list-description">
+            <li>Tutorials by industry experts</li>
+            <li>Peer & expert code review</li>
+            <li>Coding exercises</li>
+            <li>Access to our GitHub repos</li>
+            <li>Community forum</li>
+            <li>Flashcard decks</li>
+            <li>New videos every week</li>
+          </ul>
         </div>
       </div>
     </div>
