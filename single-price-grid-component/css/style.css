@@ -51,6 +51,11 @@ The designs were created to the following widths:
   padding: 0;
 }
 
+ul,
+li {
+  list-style: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -62,4 +67,29 @@ body {
   line-height: 1.6;
   color: var(--grayish-blue);
   background-color: var(--light-gray);
+}
+
+/* Style the parent main container */
+
+.main-grid-container {
+  width: 100%;
+  border-radius: 7px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 70px;
+}
+
+/* Style the childs top-container and bottom container */
+
+.main-grid-top-container,
+.main-grid-bottom-container {
+  margin-top: 30px;
+}
+
+.main-grid-top-container,
+.main-grid-bottom-container .price-grid-container,
+.main-grid-bottom-container .why-us-grid-container {
+  padding-left: 25px;
+  padding-right: 25px;
 }
