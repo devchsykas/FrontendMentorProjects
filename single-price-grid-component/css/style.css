@@ -74,12 +74,10 @@ body {
 
 .main-grid-container {
   background-color: var(--white);
-  width: 100%;
+  width: 650px;
   border-radius: 7px;
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 70px;
+  margin: 0 auto;
 }
 
 /* Common styles for the childs top and bottom containers */
@@ -107,7 +105,7 @@ body {
 }
 
 .main-grid-top-container .main-sub-heading {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   font-weight: 700;
   color: var(--bright-yellow);
   padding-top: 15px;
@@ -120,6 +118,7 @@ body {
   color: var(--grayish-blue);
   padding-top: 10px;
   padding-bottom: 10px;
+  max-width: 800px;
 }
 
 /* Style the parent bottom container */
@@ -134,5 +133,66 @@ body {
 
 .main-grid-bottom-container .price-grid-container,
 .main-grid-bottom-container .why-us-grid-container {
-  width: auto;
+  max-width: 400px;
+}
+
+/* Style price container */
+
+.price-grid-container {
+  background-color: var(--cyan);
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+
+.main-grid-bottom-container .price-grid-container .bottom-heading {
+  color: var(--light-gray);
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.price-grid-container .bottom-price-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+.bottom-price-wrapper .bottom-price {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: var(--light-gray);
+}
+
+.bottom-price-wrapper .bottom-price-month {
+  font-size: 1rem;
+  color: var(--light-gray);
+  padding-left: 10px;
+}
+
+.price-grid-container .bottom-description {
+  color: var(--light-gray);
+  padding-top: 10px;
+}
+
+.price-grid-container .bottom-button {
+  background-color: var(--bright-yellow);
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  height: 50px;
+}
+
+.price-grid-container .bottom-button a {
+  color: var(--light-gray);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.price-grid-container .bottom-button a:hover {
+  color: var(--grayish-blue);
 }
