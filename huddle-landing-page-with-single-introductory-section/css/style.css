@@ -75,3 +75,77 @@ p {
   font-weight: 400;
   line-height: 1.5rem;
 }
+
+/* Huddle Container */
+.huddle-container {
+  background-image: url("../images/bg-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-left: 20px;
+  padding-right: 30px;
+}
+
+/* Huddle Top Container - Huddle Logo */
+.huddle-top-container {
+  padding-top: 30px;
+}
+
+.huddle-top-container img {
+  width: 150px;
+  height: 25px;
+}
+
+/* Huddle Middle Container */
+.huddle-middle-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+/* Huddle Middle Container - Huddle Hero Image */
+.huddle-middle-container .huddle-hero-image {
+  padding-right: 30px;
+}
+
+/* Huddle Middle Container - Huddle Hero Text Desc */
+.huddle-hero-text-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.huddle-hero-text-description .hero-heading {
+  margin-bottom: 15px;
+  width: 380px;
+  height: 100px;
+}
+
+.huddle-hero-text-description .hero-text {
+  font-family: "Poppins", sans-serif;
+  width: 500px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.huddle-hero-text-description .register-btn {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--White);
+  width: 160px;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.huddle-hero-text-description .register-btn a {
+  color: var(--Violet);
+}
+
+.huddle-hero-text-description .register-btn:hover {
+  background-color: var(--Soft-Magenta);
+}
+
+/* Huddle Bottom Container */
