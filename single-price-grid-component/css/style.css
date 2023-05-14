@@ -37,6 +37,7 @@ The designs were created to the following widths:
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
 
 :root {
+  --white: hsl(0, 0%, 100%);
   --cyan: hsl(179, 62%, 43%);
   --bright-yellow: hsl(71, 73%, 54%);
   --light-gray: hsl(204, 43%, 93%);
@@ -72,6 +73,7 @@ body {
 /* Style the parent main container */
 
 .main-grid-container {
+  background-color: var(--white);
   width: 100%;
   border-radius: 7px;
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
@@ -80,7 +82,7 @@ body {
   margin-top: 70px;
 }
 
-/* Style the childs top-container and bottom container */
+/* Common styles for the childs top-container and bottom container */
 
 .main-grid-top-container,
 .main-grid-bottom-container {
@@ -92,4 +94,30 @@ body {
 .main-grid-bottom-container .why-us-grid-container {
   padding-left: 25px;
   padding-right: 25px;
+}
+
+/* Style the top container */
+
+.main-grid-top-container .main-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--cyan);
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.main-grid-top-container .main-sub-heading {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--bright-yellow);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.main-grid-top-container .main-description {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--grayish-blue);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
