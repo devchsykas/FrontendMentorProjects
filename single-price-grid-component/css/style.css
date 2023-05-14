@@ -82,7 +82,7 @@ body {
   margin-top: 70px;
 }
 
-/* Common styles for the childs top-container and bottom container */
+/* Common styles for the childs top and bottom containers */
 
 .main-grid-top-container,
 .main-grid-bottom-container {
@@ -96,7 +96,7 @@ body {
   padding-right: 25px;
 }
 
-/* Style the top container */
+/* Style the child top container */
 
 .main-grid-top-container .main-heading {
   font-size: 2rem;
@@ -120,4 +120,19 @@ body {
   color: var(--grayish-blue);
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+/* Style the parent bottom container */
+
+.main-grid-bottom-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+/* Common styles for the childs price and why-us containers */
+
+.main-grid-bottom-container .price-grid-container,
+.main-grid-bottom-container .why-us-grid-container {
+  width: auto;
 }
