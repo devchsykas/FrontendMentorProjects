@@ -149,3 +149,26 @@ p {
 }
 
 /* Huddle Bottom Container */
+
+.huddle-bottom-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+  padding-right: 80px;
+}
+
+.huddle-bottom-container .social-icons {
+  display: flex;
+  align-items: flex-end;
+  background-color: transparent;
+}
+
+.social-icon-facebook .fa-facebook,
+.social-icon-twiter .fa-twitter,
+.social-icon-instagram .fa-instagram {
+  color: var(--White);
+  border-radius: 50%;
+}
