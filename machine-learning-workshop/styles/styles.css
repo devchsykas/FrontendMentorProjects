@@ -126,3 +126,51 @@ main .sub-header .heading {
   font-size: 24px;
   text-align: center;
 }
+
+#reg {
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 28px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reg .section-title {
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.reg .section-subtitle {
+  font-size: 16px;
+  color: #ffffff;
+  margin: 16px 0px;
+}
+
+.reg table {
+  padding: 10px;
+  border: 1px solid #333333;
+  border-spacing: 10px;
+  background-color: #ffffff;
+}
+
+.reg table td {
+  padding: 5px 10px;
+}
+
+.reg table tr + tr td {
+  border-top: 1px solid;
+}
+
+.reg table td + td {
+  border-left: 1px solid;
+}
+
+.reg table td[colspan] {
+  text-align: center;
+}
+
+.reg table td a {
+  text-decoration: none;
+}
