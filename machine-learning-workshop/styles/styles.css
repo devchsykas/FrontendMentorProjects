@@ -127,7 +127,7 @@ main .sub-header .heading {
   text-align: center;
 }
 
-#reg {
+.reg {
   background-image: url("../images/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -175,7 +175,7 @@ main .sub-header .heading {
   text-decoration: none;
 }
 
-#about {
+.about {
   padding: 28px 15px;
   background-color: #ffffff;
   color: #333333;
