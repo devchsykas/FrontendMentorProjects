@@ -53,3 +53,65 @@ nav ul li a:hover {
 nav ul li:hover {
   background-color: #226daa;
 }
+
+.header {
+  background-image: url("../images/all.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center;
+  background-attachment: fixed;
+  min-height: 50vw;
+  padding-top: 8vh;
+  text-align: center;
+}
+
+.header .main-heading {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 64px;
+  letter-spacing: normal;
+  height: 64px;
+  margin: 21px 0px 21px 0px;
+  color: #000000;
+}
+
+.header .sub-heading {
+  line-height: 32px;
+  color: #000000;
+  margin: 19px 0px 19px 0px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: normal;
+}
+
+.header .btns {
+  display: flex;
+  max-width: 26rem;
+  margin: auto;
+  padding-top: 55px;
+}
+
+.header .btns a {
+  flex: 1 1 40%;
+  padding: 7px 14px;
+  margin: 5px;
+  border-radius: 2px;
+  text-decoration: none;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.header .btns a:hover {
+  box-shadow: -2px -2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.header .btns .btn {
+  background-color: #ccc;
+  color: #226daa;
+}
+
+.header .btns .cta-btn {
+  color: #fff;
+  background-color: #226daa;
+}
