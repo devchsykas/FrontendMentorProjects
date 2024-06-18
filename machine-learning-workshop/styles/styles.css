@@ -333,6 +333,7 @@ footer a:hover {
   color: #226daa;
 }
 
+/* Script lightswitch.js */
 .black * {
   color: black !important;
   background: black !important;
@@ -354,4 +355,45 @@ footer a:hover {
   display: inline-block;
   transform: rotate(180deg);
   opacity: 0.3;
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+  }
+
+  .nav ul {
+    flex-direction: column;
+  }
+
+  .main-header {
+    padding-top: 16vh;
+  }
+
+  .main-header .btns {
+    flex-direction: column;
+  }
+
+  .teachers .teacher-container {
+    flex-direction: column;
+  }
+
+  .feedback .testimonials {
+    flex-direction: column;
+  }
+
+  .testimonials blockquote {
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+  }
+
+  .about img {
+    float: none;
+    margin: 0 auto 20px;
+  }
+
+  .reg table {
+    width: 100%;
+  }
 }
