@@ -397,3 +397,48 @@ footer a:hover {
     width: 100%;
   }
 }
+
+/* Media Queries for Tablet Devices */
+@media (max-width: 1024px) {
+  .nav {
+    flex-direction: column;
+  }
+
+  .nav ul {
+    flex-direction: column;
+  }
+
+  .main-header {
+    padding-top: 12vh;
+  }
+
+  .main-header .btns {
+    flex-direction: column;
+  }
+
+  .teachers .teacher-container {
+    flex-direction: column;
+  }
+
+  .teachers .teacher {
+    margin-bottom: 20px;
+  }
+
+  .feedback .testimonials {
+    flex-direction: column;
+  }
+
+  .testimonials blockquote {
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+  }
+
+  .about img {
+    float: none;
+    margin: 0 auto 20px;
+  }
+
+  .reg table {
+    width: 100%;
+  }
+}
