@@ -21,3 +21,49 @@ body {
   background-color: hsl(212, 45%, 89%);
   text-align: center;
 }
+
+/* Main Content */
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added opacity for a softer shadow */
+}
+
+.img-container {
+  margin-bottom: 20px;
+}
+
+.img-container img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.card-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+}
+
+.card-text-desc {
+  color: hsl(220, 15%, 55%);
+  padding-top: 10px;
+  text-align: center;
+}
