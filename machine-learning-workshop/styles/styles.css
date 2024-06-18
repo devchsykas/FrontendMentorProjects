@@ -206,13 +206,16 @@ main .sub-header .heading {
 .teachers {
   padding: 28px 8px 28px 28px;
   background-color: #a4bacc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .teachers .section-title {
   font-size: 24px;
   font-weight: 700;
   color: #333333;
-  margin: 20px 0 0 0;
+  margin: 20px 0;
   text-align: center;
 }
 
@@ -220,36 +223,40 @@ main .sub-header .heading {
   font-size: 40px;
   color: #ffffff;
   text-align: center;
-  margin: 16px 0 0 0;
+  margin: 16px 0;
 }
 
 .teachers .section-subtitle span {
-  color: #226daa;
+  color: #226dda;
   font-family: serif;
 }
 
-.teachers .paragraph-text {
-  font-size: 16px;
-  line-height: 32px;
-  margin: 16px 0;
-  color: #333333;
+.teachers .teacher-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
 }
 
-.teachers .hal img,
-.teachers .eve img {
+.teachers .teacher {
+  flex: 1;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teachers .teacher img {
   width: 200px;
   height: 200px;
-  display: block;
+  margin: 0 0 20px 0;
 }
 
-.teachers .hal img {
-  margin-left: -10px;
-  float: left;
-}
-
-.teachers .eve img {
-  padding: 19px 39px;
-  float: right;
+.teachers .teacher .paragraph-text {
+  font-size: 16px;
+  line-height: 32px;
+  color: #333333;
+  text-align: center;
 }
 
 /* Feedback Section */
