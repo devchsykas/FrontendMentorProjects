@@ -84,3 +84,35 @@ body {
 .attribution a:hover {
   color: hsla(228, 45%, 44%, 0.5); /* Changed to hsla for consistency */
 }
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+  .img-container img {
+    width: 80%;
+    height: auto;
+  }
+
+  .card-title {
+    font-size: 22px;
+  }
+
+  .card-content {
+    padding: 15px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .img-container img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .card-title {
+    font-size: 28px;
+  }
+
+  .card-content {
+    padding: 25px;
+  }
+}
