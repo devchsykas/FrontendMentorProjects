@@ -332,3 +332,26 @@ footer a {
 footer a:hover {
   color: #226daa;
 }
+
+.black * {
+  color: black !important;
+  background: black !important;
+  transition: background 200ms, color 200ms;
+}
+
+.black img {
+  display: none;
+}
+
+.light {
+  float: left;
+  width: 70px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.black .light {
+  display: inline-block;
+  transform: rotate(180deg);
+  opacity: 0.3;
+}
