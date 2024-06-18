@@ -67,3 +67,20 @@ body {
   padding-top: 10px;
   text-align: center;
 }
+
+/* Footer Attribution */
+
+.attribution {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  color: hsla(228, 45%, 44%, 0.5); /* Changed to hsla for consistency */
+}
