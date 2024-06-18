@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
+/* General Styles */
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +14,7 @@ body {
   background-color: #ffffff;
 }
 
+/* Navigation */
 .nav {
   display: flex;
   justify-content: space-between;
@@ -40,8 +42,6 @@ nav ul li {
 
 nav ul li a {
   padding: 10px;
-  height: 100%;
-  width: 100%;
   display: block;
   text-decoration: none;
 }
@@ -54,6 +54,7 @@ nav ul li:hover {
   background-color: #226daa;
 }
 
+/* Main Header */
 .main-header {
   background-image: url("../images/all.svg");
   background-repeat: no-repeat;
@@ -68,22 +69,17 @@ nav ul li:hover {
 .main-header .main-heading {
   font-size: 32px;
   font-weight: 700;
-  text-align: center;
   line-height: 64px;
-  letter-spacing: normal;
-  height: 64px;
-  margin: 21px 0px 21px 0px;
+  margin: 21px 0;
   color: #000000;
 }
 
 .main-header .sub-heading {
   line-height: 32px;
   color: #000000;
-  margin: 19px 0px 19px 0px;
-  text-align: center;
+  margin: 19px 0;
   font-size: 24px;
   font-weight: 700;
-  letter-spacing: normal;
 }
 
 .main-header .btns {
@@ -116,6 +112,7 @@ nav ul li:hover {
   background-color: #226daa;
 }
 
+/* Sub Header */
 main .sub-header h1 {
   background-color: #226daa;
   color: #ffffff;
@@ -127,6 +124,7 @@ main .sub-header .heading {
   text-align: center;
 }
 
+/* Registration Section */
 .reg {
   background-image: url("../images/bg.jpg");
   background-repeat: no-repeat;
@@ -145,7 +143,7 @@ main .sub-header .heading {
 .reg .section-subtitle {
   font-size: 16px;
   color: #ffffff;
-  margin: 16px 0px;
+  margin: 16px 0;
 }
 
 .reg table {
@@ -175,6 +173,7 @@ main .sub-header .heading {
   text-decoration: none;
 }
 
+/* About Section */
 .about {
   padding: 28px 15px;
   background-color: #ffffff;
@@ -186,14 +185,13 @@ main .sub-header .heading {
 
 .about .section-title {
   font-size: 24px;
-  margin: 20px 0px;
+  margin: 20px 0;
 }
 
 .about .paragraph-text {
-  margin: 16px 0px;
+  margin: 16px 0;
   font-size: 16px;
   line-height: 32px;
-  word-spacing: 0px;
 }
 
 .about img {
@@ -201,9 +199,10 @@ main .sub-header .heading {
   display: block;
   width: 70px;
   height: 90px;
-  margin: 0px 10px 0px 0px;
+  margin-right: 10px;
 }
 
+/* Teachers Section */
 .teachers {
   padding: 28px 8px 28px 28px;
   background-color: #a4bacc;
@@ -225,94 +224,97 @@ main .sub-header .heading {
 }
 
 .teachers .section-subtitle span {
-  color: #226dda;
+  color: #226daa;
   font-family: serif;
 }
 
 .teachers .paragraph-text {
   font-size: 16px;
   line-height: 32px;
-  margin: 16px 0 16px 0;
+  margin: 16px 0;
   color: #333333;
 }
 
-.teachers .hal img {
-  width: 200px;
-  height: 200px;
-  margin: 0 0 0 -10px;
-  position: relative;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  float: left;
-  display: block;
-}
-
+.teachers .hal img,
 .teachers .eve img {
   width: 200px;
   height: 200px;
-  padding: 19px 39px 19px 39px;
-  float: left;
   display: block;
 }
 
+.teachers .hal img {
+  margin-left: -10px;
+  float: left;
+}
+
+.teachers .eve img {
+  padding: 19px 39px;
+  float: right;
+}
+
+/* Feedback Section */
 .feedback {
   background-color: #113755;
-  padding: 28px 15px 28px 15px;
+  padding: 28px 15px;
 }
 
 .feedback .section-title {
   color: #ffffff;
-  margin: 20px 0 20px 0;
+  margin: 20px 0;
   text-align: center;
 }
 
 .testimonials {
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  text-align: center;
+}
+
+.feedback .testimonial {
+  flex: 1;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .feedback img {
   max-width: 100%;
-  max-height: 300px;
-  height: 200px;
+  max-height: 200px;
   display: block;
-  margin: auto;
+  margin: 0 auto 10px;
 }
 
 .testimonials blockquote {
   line-height: 2;
-  flex: 0 1 30%;
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding: 0;
+  margin: 10px 0;
+  padding: 0 10px;
+  max-width: 300px;
 }
 
-.feedback blockquote p {
-  text-align: right;
+.testimonials blockquote p {
+  margin: 10px 0 0;
 }
 
+/* Footer */
 footer {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #cccccc;
-  padding: 28px 15px 28px 15px;
+  padding: 28px 15px;
 }
 
 footer p {
   font-size: 24px;
   font-weight: 700;
   color: #000000;
-  margin: 20px 0 20px 0;
+  margin: 20px 0;
 }
 
 footer address {
   font-size: 16px;
-  margin: 16px 0 16px 0;
+  margin: 16px 0;
 }
 
 footer a {
