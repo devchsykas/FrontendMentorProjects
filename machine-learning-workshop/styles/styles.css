@@ -203,3 +203,123 @@ main .sub-header .heading {
   height: 90px;
   margin: 0px 10px 0px 0px;
 }
+
+.teachers {
+  padding: 28px 8px 28px 28px;
+  background-color: #a4bacc;
+}
+
+.teachers .section-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333333;
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+
+.teachers .section-subtitle {
+  font-size: 40px;
+  color: #ffffff;
+  text-align: center;
+  margin: 16px 0 0 0;
+}
+
+.teachers .section-subtitle span {
+  color: #226dda;
+  font-family: serif;
+}
+
+.teachers .paragraph-text {
+  font-size: 16px;
+  line-height: 32px;
+  margin: 16px 0 16px 0;
+  color: #333333;
+}
+
+.teachers .hal img {
+  width: 200px;
+  height: 200px;
+  margin: 0 0 0 -10px;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  float: left;
+  display: block;
+}
+
+.teachers .eve img {
+  width: 200px;
+  height: 200px;
+  padding: 19px 39px 19px 39px;
+  float: left;
+  display: block;
+}
+
+.feedback {
+  background-color: #113755;
+  padding: 28px 15px 28px 15px;
+}
+
+.feedback .section-title {
+  color: #ffffff;
+  margin: 20px 0 20px 0;
+  text-align: center;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.feedback img {
+  max-width: 100%;
+  max-height: 300px;
+  height: 200px;
+  display: block;
+  margin: auto;
+}
+
+.testimonials blockquote {
+  line-height: 2;
+  flex: 0 1 30%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.feedback blockquote p {
+  text-align: right;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #cccccc;
+  padding: 28px 15px 28px 15px;
+}
+
+footer p {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+  margin: 20px 0 20px 0;
+}
+
+footer address {
+  font-size: 16px;
+  margin: 16px 0 16px 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000000;
+}
+
+footer a:hover {
+  color: #226daa;
+}
