@@ -82,6 +82,23 @@ main {
   color: hsl(0, 0%, 50%);
 }
 
+.author-info {
+  display: flex;
+  align-items: center;
+}
+
+.author-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.author-name {
+  color: hsl(0, 0%, 7%);
+  font-weight: 800;
+  margin: 1rem;
+}
+
 /* Footer Section */
 footer {
   display: flex;
