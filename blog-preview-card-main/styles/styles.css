@@ -19,3 +19,17 @@ body {
   color: hsl(0, 0%, 7%);
   background-color: hsl(47, 88%, 63%);
 }
+
+/* Footer Section */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+footer a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
