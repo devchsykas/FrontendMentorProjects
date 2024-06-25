@@ -84,7 +84,7 @@ main {
 
 .author-info {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .author-info img {
