@@ -82,6 +82,10 @@ main {
   color: hsl(0, 0%, 50%);
 }
 
+.blog-title:hover {
+  color: hsl(47, 88%, 63%);
+}
+
 .author-info {
   display: flex;
   /* align-items: center; */
