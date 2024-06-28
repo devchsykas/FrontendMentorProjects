@@ -47,6 +47,74 @@ body {
   font-size: 16px;
   line-height: 1.5;
   min-height: 100vh;
-  background-color: var(--neutral-color-white);
+  background-color: var(--neutral-color-eggshell);
   color: var(--neutral-color-dark-charcoal);
+}
+
+/* Main Content */
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.recipe-container {
+  max-width: 800px;
+  width: 100%;
+  background: var(--neutral-color-white);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  margin: 40px 20px;
+}
+
+.recipe-header img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.recipe-info {
+  padding: 20px;
+}
+
+.recipe-title {
+  font-family: "Young Serif", serif;
+  font-size: 24px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.recipe-text {
+  margin: 20px 0 20px 0;
+  color: var(--neutral-color-wenge-brown);
+}
+
+.recipe-preparation {
+  background-color: var(--neutral-color-rose-white);
+  margin-bottom: 20px;
+}
+
+.recipe-preparation-title {
+  font-size: 24px;
+  font-family: "Young Serif", serif;
+  padding-bottom: 10px;
+  color: var(--primary-color-nutmeg);
+}
+
+.recipe-preparation-list {
+  color: var(--neutral-color-wenge-brown);
+}
+
+.recipe-ingredients {
+  margin-bottom: 20px;
+}
+
+.recipe-ingredients-title {
+  color: var(--primary-color-dark-raspberry);
+  font-size: 24px;
+  font-family: "Young Serif", serif;
+  padding-bottom: 10px;
 }
