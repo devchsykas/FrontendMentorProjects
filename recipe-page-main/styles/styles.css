@@ -51,6 +51,10 @@ body {
   color: var(--neutral-color-dark-charcoal);
 }
 
+strong {
+  color: var(--neutral-color-dark-charcoal);
+}
+
 /* Main Content */
 
 main {
@@ -117,4 +121,57 @@ main {
   font-size: 24px;
   font-family: "Young Serif", serif;
   padding-bottom: 10px;
+}
+
+.recipe-ingredients-list {
+  color: var(--neutral-color-wenge-brown);
+  border-bottom: 1px solid var(--neutral-color-light-grey);
+  padding-bottom: 20px;
+}
+
+.recipe-instructions {
+  margin-bottom: 20px;
+}
+
+.recipe-instructions-title {
+  color: var(--primary-color-dark-raspberry);
+  font-size: 24px;
+  font-family: "Young Serif", serif;
+  padding-bottom: 10px;
+}
+
+.recipe-instructions-list {
+  color: var(--neutral-color-wenge-brown);
+  border-bottom: 1px solid var(--neutral-color-light-grey);
+  padding-bottom: 20px;
+}
+
+.recipe-nutrition {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.recipe-nutrition-title {
+  color: var(--primary-color-dark-raspberry);
+  font-size: 24px;
+  font-family: "Young Serif", serif;
+  padding-bottom: 10px;
+}
+
+.recipe-nutrition-text {
+  color: var(--neutral-color-wenge-brown);
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.recipe-nutrition-values {
+  color: var(--neutral-color-wenge-brown);
+  border-bottom: 1px solid var(--neutral-color-light-grey);
+}
+
+.recipe-nutrition-values .value {
+  color: var(--primary-color-dark-raspberry);
+  font-weight: 700;
 }
