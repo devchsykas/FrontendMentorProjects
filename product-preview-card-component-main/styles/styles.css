@@ -1,0 +1,81 @@
+/* Global Styles */
+
+:root {
+  /* Primary Colors */
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+
+  /* Neutral Colors */
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+
+  /* Typography */
+  --font-family: "Montserrat", sans-serif;
+  --font-size-paragraph: 0.875rem;
+  --font-size-heading: 1.5rem;
+  --font-weight-regular: 500;
+  --font-weight-bold: 700;
+
+  /* Spacing */
+  --margin-paragraph: 1.5rem;
+  --margin-heading: 2rem;
+  --line-height: 1.5;
+
+  /* Radius */
+  --radius: 0.5rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+button {
+  border-width: 0;
+  padding: 0;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+p {
+  margin: 0;
+}
