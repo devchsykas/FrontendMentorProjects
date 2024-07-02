@@ -3,8 +3,11 @@
 
 /* Global Styles */
 :root {
+  /* Primary color */
   --primary-color-nutmeg: hsl(14, 45%, 36%);
   --primary-color-dark-raspberry: hsl(332, 51%, 32%);
+
+  /* Neutral color */
   --neutral-color-white: hsl(0, 0%, 100%);
   --neutral-color-rose-white: hsl(330, 100%, 98%);
   --neutral-color-eggshell: hsl(30, 54%, 90%);
@@ -84,6 +87,8 @@ main {
   margin: 40px 20px;
 }
 
+/* Recipe Section */
+
 .recipe-header img {
   width: 100%;
   height: auto;
@@ -106,6 +111,8 @@ main {
   color: var(--neutral-color-wenge-brown);
 }
 
+/* Recipe Preparation Section*/
+
 .recipe-preparation {
   background-color: var(--neutral-color-rose-white);
   font-family: "Outfit", sans-serif;
@@ -125,6 +132,8 @@ main {
   color: var(--neutral-color-wenge-brown);
 }
 
+/* Recipe Ingredients Section*/
+
 .recipe-ingredients {
   margin-bottom: 20px;
 }
@@ -142,6 +151,8 @@ main {
   padding-bottom: 20px;
 }
 
+/* Recipe Instruction Section */
+
 .recipe-instructions {
   margin-bottom: 20px;
 }
@@ -158,6 +169,8 @@ main {
   border-bottom: 1px solid var(--neutral-color-light-grey);
   padding-bottom: 20px;
 }
+
+/* Recipe Nutrition Section */
 
 .recipe-nutrition {
   margin-bottom: 20px;
@@ -191,4 +204,15 @@ main {
 .recipe-nutrition-values .value {
   color: var(--primary-color-dark-raspberry);
   font-weight: 700;
+}
+
+/* Footer Section */
+
+.attribution {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
