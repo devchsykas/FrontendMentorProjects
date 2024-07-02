@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <!-- displays site properly based on user's device -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
     <title>Frontend Mentor | Product preview card component</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -18,11 +24,37 @@
     </style>
   </head>
   <body>
-    Perfume Gabrielle Essence Eau De Parfum A floral, solar and voluptuous
-    interpretation composed by Olivier Polge, Perfumer-Creator for the House of
-    CHANEL. $149.99 $169.99 Add to Cart
+    <main id="main">
+      <section class="product-card-container">
+        <div class="product-card-image-container">
+          <img
+            src="./images/image-product-mobile.jpg"
+            alt="Perfume Gabrielle Essence"
+          />
+        </div>
+        <div class="product-card-info-container">
+          <div class="product-card-info-header">
+            <h3 class="product-card-info-header-subtitle">Perfume</h3>
+            <h1 class="product-card-info-header-title">
+              Gabrielle Essence Eau De Parfum
+            </h1>
+            <p class="product-card-info-header-description">
+              A floral, solar and voluptuous interpretation composed by Olivier
+              Polge, Perfumer-Creator for the House of CHANEL.
+            </p>
+          </div>
+          <div class="product-card-info-footer">
+            <div class="product-card-info-footer-price-container">
+              <p class="product-card-info-footer-price">$149.99</p>
+              <p class="product-card-info-footer-price-discount">$169.99</p>
+            </div>
+            <button class="product-card-info-footer-button">Add to Cart</button>
+          </div>
+        </div>
+      </section>
+    </main>
 
-    <div class="attribution">
+    <footer class="attribution">
       Challenge by
       <a
         href="https://www.frontendmentor.io?ref=challenge"
@@ -30,6 +62,6 @@
         rel="noopener noreferrer"
         >Frontend Mentor</a
       >. Coded by <a href="#">Christos Sykas</a>.
-    </div>
+    </footer>
   </body>
 </html>
