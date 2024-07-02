@@ -216,3 +216,69 @@ main {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .recipe-container {
+    padding: 20px;
+    margin: 20px 10px;
+  }
+
+  .recipe-preparation,
+  .recipe-ingredients,
+  .recipe-instructions,
+  .recipe-nutrition {
+    padding: 20px;
+  }
+
+  .recipe-title,
+  .recipe-preparation-title,
+  .recipe-ingredients-title,
+  .recipe-instructions-title,
+  .recipe-nutrition-title {
+    font-size: 20px;
+  }
+
+  .recipe-nutrition-text {
+    font-size: 14px;
+  }
+
+  .recipe-nutrition td {
+    padding: 5px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  .recipe-container {
+    padding: 15px;
+    margin: 15px 5px;
+  }
+
+  .recipe-preparation,
+  .recipe-ingredients,
+  .recipe-instructions,
+  .recipe-nutrition {
+    padding: 15px;
+  }
+
+  .recipe-title,
+  .recipe-preparation-title,
+  .recipe-ingredients-title,
+  .recipe-instructions-title,
+  .recipe-nutrition-title {
+    font-size: 18px;
+  }
+
+  .recipe-nutrition-text {
+    font-size: 12px;
+  }
+
+  .recipe-nutrition td {
+    padding: 5px 0;
+  }
+}
