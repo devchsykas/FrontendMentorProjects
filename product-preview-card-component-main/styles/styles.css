@@ -191,3 +191,13 @@ main {
   margin-right: 0.5rem;
   vertical-align: middle;
 }
+
+/* Footer Section */
+footer {
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+footer a {
+  color: hsl(228, 45%, 44%);
+}
