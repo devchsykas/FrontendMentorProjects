@@ -197,3 +197,47 @@ footer {
 footer a {
   color: hsl(228, 45%, 44%);
 }
+
+/* Media Queries for Tablet Devices */
+@media (min-width: 600px) and (max-width: 900px) {
+  .product-card-container {
+    max-width: 600px;
+    flex-direction: row;
+    margin: 3rem 1.5rem;
+    padding: 1.5rem;
+  }
+
+  .product-card-image-container,
+  .product-card-info-container {
+    flex: 1;
+  }
+
+  .product-card-image-container img {
+    height: 100%;
+  }
+
+  .product-card-info-header .product-card-info-header-title {
+    font-size: 2rem;
+  }
+
+  .product-card-info-header .product-card-info-header-description {
+    font-size: 1rem;
+  }
+
+  .product-card-info-footer-price {
+    font-size: 2rem;
+  }
+
+  .product-card-info-footer-price-discount {
+    font-size: 1rem;
+  }
+
+  .product-card-info-footer-button button {
+    width: 80%;
+    height: 3rem;
+  }
+
+  footer {
+    font-size: 1rem;
+  }
+}
