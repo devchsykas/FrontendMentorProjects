@@ -285,3 +285,52 @@ footer a {
     font-size: 1.25rem;
   }
 }
+
+/* Media Queries for Desktop Devices */
+@media (min-width: 1200px) {
+  .product-card-container {
+    max-width: 1000px;
+    flex-direction: row;
+    margin: 3rem auto;
+    padding: 2.5rem;
+  }
+
+  .product-card-image-container,
+  .product-card-info-container {
+    flex: 1;
+  }
+
+  .product-card-info-container {
+    padding: 2.5rem 1.25rem;
+  }
+
+  .product-card-image-container img {
+    height: 100%;
+  }
+
+  .product-card-info-header .product-card-info-header-title {
+    font-size: 3rem;
+  }
+
+  .product-card-info-header .product-card-info-header-description {
+    font-size: 1.5rem;
+    padding: 0.625rem;
+  }
+
+  .product-card-info-footer-price {
+    font-size: 3rem;
+  }
+
+  .product-card-info-footer-price-discount {
+    font-size: 1.5rem;
+  }
+
+  .product-card-info-footer-button button {
+    width: 90%;
+    height: 4rem;
+  }
+
+  footer {
+    font-size: 1.5rem;
+  }
+}
