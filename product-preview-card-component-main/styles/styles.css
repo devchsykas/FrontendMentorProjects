@@ -184,6 +184,10 @@ main {
   vertical-align: middle;
 }
 
+.product-card-info-footer-button button:hover {
+  background-color: var(--very-dark-blue);
+}
+
 /* Footer Section */
 footer {
   font-size: 0.75rem;
