@@ -18,6 +18,45 @@
   --font-family: "Poppins", sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* Mobile Design 320px*/
+@media (max-width: 320px) {
+  body {
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+    background-color: var(--Very-Light-Gray);
+  }
+
+  .header {
+    padding: 16px;
+    text-align: center;
+  }
+
+  .header .title {
+    font-size: 1.3rem;
+    color: var(--Grayish-Blue);
+    font-weight: 200;
+  }
+
+  .header .subtitle {
+    font-size: 1.2rem;
+    color: var(--Very-Dark-Blue);
+    font-weight: 600;
+    padding-bottom: 5px;
+  }
+
+  .header .info {
+    font-size: var(--font-size);
+    color: var(--Grayish-Blue);
+    font-weight: 400;
+    width: 300px;
+  }
+}
+
 .footer p {
   font-size: 11px;
   text-align: center;
