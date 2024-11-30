@@ -160,9 +160,10 @@ body {
 
 /* Mobile Design 320px*/
 @media (max-width: 320px) {
+  /* Header Section */
   .header {
-    padding: 16px;
     text-align: center;
+    margin-bottom: 40px;
   }
 
   .header .title {
@@ -172,87 +173,99 @@ body {
   }
 
   .header .subtitle {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: var(--Very-Dark-Blue);
     font-weight: 600;
-    padding-bottom: 5px;
+
+    margin: 10px 0;
   }
 
   .header .info {
     font-size: var(--font-size);
     color: var(--Grayish-Blue);
     font-weight: 400;
-    width: 300px;
+
+    max-width: 600px;
+    margin: 0 auto;
   }
 
+  /* Card Grid */
   .card-grid {
-    padding: 16px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
   }
 
+  /* Cards Styling */
   .card {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 180px;
-    border-radius: 12px;
+    justify-content: space-between;
+    min-height: 150px;
+    height: auto;
+    border-radius: 8px;
     background-color: white;
-    box-shadow: 10px 5px 5px var(--Very-Light-Gray);
-    padding: 10px;
-    margin: 20px;
-  }
-
-  .card.cyan {
-    border: 3px solid var(--Very-Light-Gray);
-    border-top-color: var(--cyan);
-  }
-
-  .card.red {
-    border: 3px solid var(--Very-Light-Gray);
-    border-top-color: var(--red);
-  }
-
-  .card.orange {
-    border: 3px solid var(--Very-Light-Gray);
-    border-top-color: var(--Orange);
-  }
-
-  .card.blue {
-    border: 3px solid var(--Very-Light-Gray);
-    border-top-color: var(--Blue);
+    box-shadow: 0 4px 6px var(--Very-Light-Gray);
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
   }
 
   .card-info {
-    padding: 10px 30px 0px 0px;
+    text-align: left;
   }
 
   .card-info .card-title {
     color: var(--Very-Dark-Blue);
     font-size: 1.2rem;
+    margin-bottom: 10px;
   }
 
   .card-info .card-text {
     color: var(--Grayish-Blue);
     font-size: var(--font-size);
-    width: 290px;
-    padding-right: 5px;
-    margin-bottom: 15px;
   }
 
   .card-image img {
-    width: 50px;
-    height: 50px;
-    float: right;
-    position: static;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
   }
-}
 
-.footer p {
-  font-size: 11px;
-  text-align: center;
-}
-.footer a {
-  color: hsl(228, 45%, 44%);
+  /* Card Colors */
+  .card.cyan {
+    border-top: 5px solid var(--cyan);
+  }
+
+  .card.red {
+    border-top: 5px solid var(--red);
+  }
+
+  .card.orange {
+    border-top: 5px solid var(--Orange);
+  }
+
+  .card.blue {
+    border-top: 5px solid var(--Blue);
+  }
+
+  /* Footer Section */
+  .footer p {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  .footer a {
+    text-decoration: none;
+    color: hsl(228, 45%, 44%);
+  }
+
+  .footer a:hover {
+    text-decoration: underline;
+  }
 }
