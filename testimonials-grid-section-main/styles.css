@@ -109,3 +109,17 @@ body {
   opacity: 0.7;
   font-weight: var(--font-weight-bold);
 }
+
+/* Footer Section */
+
+.footer {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 1.5rem;
+  background-color: var(--Moderate-violet-color);
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
