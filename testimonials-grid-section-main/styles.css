@@ -30,7 +30,7 @@ body {
 /* Testimonials Section */
 .testimonials {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   gap: 1.5rem;
   padding: 2rem;
@@ -38,17 +38,74 @@ body {
   margin: 0 auto;
 }
 
+/* Testimonial Card */
 .testimonial-card {
   border-radius: 10px;
   padding: 1.5rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
+/* Testimonial Background Colors */
+.testimonial-card-purple {
+  background-color: var(--Moderate-violet-color);
+  color: white;
+}
+
+.testimonial-card-dark-blue {
+  background-color: var(--very-dark-blackish-blue-color);
+  color: white;
+}
+
+.testimonial-card-white {
+  background-color: white;
+  color: var(--very-dark-grayish-blue-color);
+}
+
+.testimonial-card-black {
+  background-color: var(--very-dark-blackish-blue-color);
+  color: white;
+}
+
+/* Header Section */
 .testimonial-card-header {
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
+}
+
+.testimonial-card-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 0.5rem;
+}
+
+.testimonial-card-name {
+  font-size: 14px;
+  color: var(--light-gray-color);
+  font-weight: var(--font-weight-medium);
+}
+
+.testimonial-card-status {
+  font-size: 12px;
+  font-weight: var(--font-weight-medium);
+  color: var(--light-gray-color);
+  opacity: 0.5;
+}
+
+/* Testimonials Paragraphs */
+.testimonial-card-highlight {
+  font-size: 1.25rem;
+  font-weight: var(--font-weight-bold);
+  margin-bottom: 1rem;
+}
+
+.testimonial-card-description {
+  font-size: var(--font-size);
+  color: var(--light-gray-color);
+  opacity: 0.7;
+  font-weight: var(--font-weight-bold);
 }
