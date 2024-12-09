@@ -30,8 +30,11 @@ body {
 /* Testimonials Section */
 .testimonials {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
+  grid-template-areas:
+    "card1 card1 card2 card5"
+    "card3 card4 card4 card5";
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto auto;
   gap: 1.5rem;
   padding: 2rem;
   max-width: 1200px;
@@ -47,7 +50,7 @@ body {
   flex-direction: column;
 }
 
-/* Testimonial Background Colors */
+/* Testimonial Card Background Colors */
 .testimonial-card-purple {
   background-color: var(--Moderate-violet-color);
   color: white;
@@ -67,6 +70,31 @@ body {
   background-color: var(--very-dark-blackish-blue-color);
   color: white;
 }
+
+/* Testimonial Card Areas */
+.card1 {
+  grid-area: card1;
+  grid-column: span 2;
+}
+
+.card2 {
+  grid-area: card2;
+}
+
+.card3 {
+  grid-area: card3;
+}
+
+.card4 {
+  grid-area: card4;
+  grid-column: span 2;
+}
+
+.card5 {
+  grid-area: card5;
+}
+
+/* Testimonial Card Content */
 
 /* Header Section */
 .testimonial-card-header {
