@@ -23,3 +23,31 @@
   --font-weight-bold: 700;
   --font-weight-extra-bold: 800;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-paragraph);
+  background-color: var(--Pale-blue);
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  /* padding: 20px; */
+}
+
+.left-column {
+  background-image: linear-gradient(
+    var(--Violet-blue-circle),
+    var(--Persian-blue-circle)
+  );
+  box-shadow: 1px 3px 4px 5px rgba(0, 0, 0, 0.2);
+}
