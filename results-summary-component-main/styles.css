@@ -34,14 +34,15 @@ body {
   font-family: var(--font-family);
   font-size: var(--font-size-paragraph);
   background-color: var(--Pale-blue);
+  /* min-height: 100vh; */
 }
 
 .flex-container {
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: center;
   height: 100vh;
-  /* padding: 20px; */
+  padding: 20px;
 }
 
 .left-column {
@@ -50,4 +51,32 @@ body {
     var(--Persian-blue-circle)
   );
   box-shadow: 1px 3px 4px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  /* padding: 50px; */
+  border-radius: 15px;
+  height: 400px;
+  width: 400px;
+}
+
+.right-column {
+  background-color: var(--White);
+  /* padding: 50px; */
+  border-radius: 15px;
+  height: 400px;
+  width: 400px;
+  box-shadow: 1px 3px 4px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 20px;
+}
+
+.result-title {
+  color: var(--Dark-gray-blue);
+  margin-top: 20px;
 }
