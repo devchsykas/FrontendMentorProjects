@@ -71,7 +71,7 @@ body {
 .score-value {
   color: var(--White);
   font-size: 64px;
-  font-weight: 800;
+  font-weight: var(--font-weight-extra-bold);
 }
 
 .score-range {
@@ -81,7 +81,7 @@ body {
 
 .score-rating {
   font-size: 32px;
-  font-weight: 800;
+  font-weight: var(--font-weight-extra-bold);
   color: var(--White);
   margin-top: 20px;
 }
@@ -106,7 +106,7 @@ body {
   margin-top: 20px;
   margin-left: 20px;
   color: var(--Dark-gray-blue);
-  font-weight: 700;
+  font-weight: var(--font-weight-bold);
 }
 
 .summary {
@@ -114,6 +114,16 @@ body {
   flex-direction: column;
   gap: 20px;
   align-items: center;
+  margin-bottom: 40px;
+}
+
+.reaction-image,
+.memory-image,
+.verbal-image,
+.visual-image {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .reaction {
@@ -125,21 +135,76 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
 }
 
-.category-name {
+.reaction-name {
   color: var(--Light-red);
+  font-weight: var(--font-weight-bold);
 }
 
 .score {
   color: var(--Dark-gray-blue);
-  font-weight: 700;
+  font-weight: var(--font-weight-bold);
   font-size: 16px;
 }
 
 .range {
   color: hsl(0, 3%, 73%);
-  font-weight: 700;
+  font-weight: var(--font-weight-bold);
   font-size: 16px;
+}
+
+.memory {
+  background-color: hsla(39, 100%, 56%, 0.1);
+  padding: 8px 16px;
+  border-radius: 5px;
+  width: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.memory-name {
+  color: var(--Orange-yellow);
+  font-weight: var(--font-weight-bold);
+}
+
+.verbal {
+  background-color: hsla(166, 100%, 37%, 0.1);
+  padding: 8px 16px;
+  border-radius: 5px;
+  width: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.verbal-name {
+  color: var(--Green-teal);
+  font-weight: var(--font-weight-bold);
+}
+
+.visual {
+  background-color: hsla(234, 85%, 45%, 0.1);
+  padding: 8px 16px;
+  border-radius: 5px;
+  width: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.visual-name {
+  color: var(--Cobalt-blue);
+  font-weight: var(--font-weight-bold);
+}
+
+.continue-btn {
+  background-color: var(--Dark-gray-blue);
+  color: var(--White);
+  padding: 10px 30px;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  width: 270px;
 }
