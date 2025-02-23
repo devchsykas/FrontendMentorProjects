@@ -1,0 +1,75 @@
+/* MEDIA QUERIES FOR MOBILE */
+
+@media only screen and (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .left-column,
+  .right-column {
+    width: 50%;
+    height: auto;
+  }
+
+  .left-column {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+
+  .result-title {
+    margin-top: 0;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .score-results {
+    width: 130px;
+    height: 130px;
+  }
+
+  .score-value {
+    font-size: 48px;
+  }
+
+  .score-range {
+    font-size: 14px;
+  }
+
+  .score-rating {
+    font-size: 24px;
+  }
+
+  .score-description {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+
+  .right-column {
+    border-radius: 0;
+    padding-bottom: 20px;
+  }
+
+  .summary-title {
+    font-size: 14px;
+    margin-left: 50px;
+  }
+
+  .reaction-name,
+  .memory-name,
+  .verbal-name,
+  .visual-name {
+    font-size: 14px;
+  }
+
+  .score,
+  .range {
+    font-size: 14px;
+  }
+
+  .continue-btn {
+    margin-top: 0;
+  }
+}
