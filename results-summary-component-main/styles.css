@@ -52,8 +52,8 @@ body {
   box-shadow: 1px 3px 4px 5px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 15px;
-  height: 400px;
-  width: 400px;
+  height: 420px;
+  width: 420px;
 }
 
 .result {
@@ -64,8 +64,24 @@ body {
 }
 
 .result-title {
-  color: var(--Dark-gray-blue);
+  /* color: var(--Dark-gray-blue); */
+  color: hsl(0, 3%, 73%);
   margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.score-results {
+  background-image: linear-gradient(
+    var(--Violet-blue-circle),
+    var(--Persian-blue-circle)
+  );
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .score-value {
@@ -76,7 +92,10 @@ body {
 
 .score-range {
   font-size: 16px;
-  color: var(--Dark-gray-blue);
+  /* color: var(--Dark-gray-blue); */
+  color: hsl(0, 3%, 73%);
+  font-weight: var(--font-weight-medium);
+  opacity: 0.8;
 }
 
 .score-rating {
@@ -90,16 +109,18 @@ body {
   margin-top: 10px;
   width: 250px;
   text-align: center;
-  color: var(--Dark-gray-blue);
+  /* color: var(--Dark-gray-blue); */
+  color: hsl(0, 3%, 73%);
+  opacity: 0.8;
+  font-weight: var(--font-weight-medium);
 }
 
 .right-column {
   background-color: var(--White);
   border-radius: 15px;
-  height: 400px;
-  width: 400px;
+  height: 420px;
+  width: 420px;
   box-shadow: 1px 3px 4px 5px rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
 }
 
 .summary-title {
@@ -114,7 +135,7 @@ body {
   flex-direction: column;
   gap: 20px;
   align-items: center;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 
 .reaction-image,
@@ -202,9 +223,19 @@ body {
 .continue-btn {
   background-color: var(--Dark-gray-blue);
   color: var(--White);
-  padding: 10px 30px;
+  padding: 15px 30px;
   border-radius: 16px;
   border: none;
   cursor: pointer;
   width: 270px;
+  margin-top: 20px;
+  font-weight: var(--font-weight-bold);
+  font-size: 16px;
+}
+
+.continue-btn:hover {
+  background-image: linear-gradient(
+    var(--Light-slate-blue-background),
+    var(--Light-royal-blue-background)
+  );
 }
