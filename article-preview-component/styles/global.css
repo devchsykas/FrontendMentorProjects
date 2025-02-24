@@ -9,10 +9,10 @@
   --Grayish-Blue: hsl(212, 23%, 69%);
   --Light-Grayish-Blue: hsl(210, 46%, 95%);
   /* FONTS */
-  --font-family: "Manrope", serif;
-  --Font-size: 13px;
-  --font-weight-medium: 500;
-  --font-weight-bold: 700;
+  --Font-Family: "Manrope", serif;
+  --Font-Size: 13px;
+  --Font-Weight-Medium: 500;
+  --Font-Weight-Bold: 700;
 }
 
 /* GLOBAL STYLES */
@@ -23,8 +23,9 @@
 }
 
 body {
-  font-family: var(--font-family);
-  font-size: var(--font-size);
-  font-weight: var(--font-weight-medium);
-  background-color: var(--light-Grayish-Blue);
+  font-family: var(--Font-Family);
+  font-size: var(--Font-Size);
+  font-weight: var(--Font-Weight-Medium);
+  background-color: var(--Light-Grayish-Blue);
+  min-height: 100vh;
 }
