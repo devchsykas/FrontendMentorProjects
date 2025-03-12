@@ -1,0 +1,125 @@
+.article-preview-container {
+  margin: 32px 16px;
+}
+
+.article-preview {
+  max-width: 800px;
+  margin: auto;
+  background-color: white;
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+.image img {
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+}
+
+.article-content {
+  padding-top: 40px;
+  padding-bottom: 24px;
+}
+
+.article-content .inner {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.article-content .article-header {
+  font-size: 22px;
+  line-height: 1.5;
+  color: var(--Very-Dark-Grayish-Blue);
+  font-weight: var(--Font-Weight-Bold);
+  margin-bottom: 16px;
+}
+
+.article-content .article-text {
+  line-height: 1.6;
+  color: var(--Desaturated-Dark-Blue);
+  margin-bottom: 40px;
+  font-family: var(--Font-Weight-Medium);
+}
+
+.author-profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.author-profile .author-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.author-profile .author-details {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.author-profile .author-info .author-name {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: var(--Very-Dark-Grayish-Blue);
+  font-weight: var(--Font-Weight-Bold);
+}
+
+.author-profile .author-info .author-date {
+  color: var(--Grayish-Blue);
+}
+
+.share-icon {
+  width: 40px;
+  height: 40px;
+  outline: none;
+  border: none;
+  background-color: var(--Light-Grayish-Blue);
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 30;
+}
+
+.share-icon img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+
+.social-links {
+  background-color: var(--Very-Dark-Grayish-Blue);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  height: 100px;
+  width: 100%;
+  padding-inline: 16px;
+  position: absolute;
+  bottom: 0;
+}
+
+.social-links .flex {
+  display: flex;
+  gap: 16px;
+}
+
+.social-links .links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.social-links span {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 16px;
+  font-weight: var(--Font-Weight-Medium);
+  color: var(--Grayish-Blue);
+}
