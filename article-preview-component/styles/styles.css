@@ -125,6 +125,16 @@
   color: var(--Grayish-Blue);
 }
 
+footer {
+  text-align: center;
+  font-size: 14px;
+  font-weight: var(--Font-Weight-Bold);
+}
+
+footer a:hover {
+  color: var(--Grayish-Blue);
+}
+
 .active {
   bottom: 0;
 }

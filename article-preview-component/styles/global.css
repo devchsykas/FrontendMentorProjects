@@ -34,6 +34,10 @@ span {
   display: inline-block;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   font-family: var(--Font-Family);
   font-size: var(--Font-Size);
