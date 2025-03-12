@@ -16,16 +16,3 @@
 }
 
 /* GLOBAL STYLES */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: var(--Font-Family);
-  font-size: var(--Font-Size);
-  font-weight: var(--Font-Weight-Medium);
-  background-color: var(--Light-Grayish-Blue);
-  min-height: 100vh;
-}
